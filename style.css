@@ -18,8 +18,38 @@
     src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+header {
+    
+}
+
+#image-hero {
+    width: 320px;
+    height: 184px;
+}
+
+#image-founder {
+    width: 281px;
+}
 
 @media screen and (min-width:481px) and (max-width:768px) {
     
