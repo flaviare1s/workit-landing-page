@@ -36,12 +36,14 @@ body {
 .container {
     margin: auto;
     width: 100%;
+    position: relative;
 }
 
 header {
     width: 100%;
     height: auto;
     background-color: #24053E;
+    position: relative;
 }
 
 .bottom {
@@ -119,6 +121,11 @@ button {
     margin: 30px 0px 50px 0px;
 }
 
+main {
+    position: relative;
+    top: 100px;
+}
+
 .numbers {
     display: flex;
     flex-direction: column;
@@ -140,6 +147,10 @@ button {
     h1 {
         font-size: 60px;
     }
+
+    main {
+        top: 200px;
+    }
 }
 
 @media screen and (min-width:769px) {
@@ -155,6 +166,10 @@ button {
     h1 {
         font-size: 80px;
         padding: 0px 450px;
+    }
+
+    main {
+        top: 400px;
     }
 
     .numbers {
