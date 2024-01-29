@@ -120,6 +120,13 @@ button {
     font-weight: bold;
     padding: 20px;
     margin: 30px 0px 50px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 2px solid #44FFA1;
 }
 
 main {
