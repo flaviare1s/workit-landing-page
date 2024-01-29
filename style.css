@@ -60,7 +60,7 @@ header {
     width: 100%;
     height: 100px; 
     background-color: #24053E; 
-    border-radius: 50% / 0 0 20% 20%; 
+    border-radius: 50% / 0 0 40px 40px; 
     z-index: -1; 
     }
 
@@ -133,6 +133,18 @@ main {
     justify-content: center;
 }
 
+.number {
+    color: #24053E;
+    font-family: Fraunces SemiBold;
+    font-size: 20px;
+    border: 1px solid #24053E;
+    border-radius: 50%;
+    width: 48px;
+    height: 46px;
+    text-align: center;
+    padding: 10px;
+    
+}
 
 #image-founder {
     width: 281px;
