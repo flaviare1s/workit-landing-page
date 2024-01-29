@@ -120,7 +120,6 @@ button {
 }
 
 .numbers {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,10 +132,31 @@ button {
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
-    
+    .image-container {
+        width: 514px;
+        height: 296px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-width:769px) {
+    .head {
+        justify-content: space-around;
+    }
+    
+    .image-container {
+        width: 767px;
+        height: 441px;
+    }
+
+    h1 {
+        font-size: 80px;
+        padding: 0px 450px;
+    }
+
     .numbers {
         flex-direction: row;
     }
