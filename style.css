@@ -126,11 +126,20 @@ main {
     top: 100px;
 }
 
+#numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .numbers {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
 }
 
 .number {
@@ -139,11 +148,29 @@ main {
     font-size: 20px;
     border: 1px solid #24053E;
     border-radius: 50%;
-    width: 48px;
-    height: 46px;
+    width: 46px;
+    height: 48px;
     text-align: center;
-    padding: 10px;
-    
+    line-height: 10px;
+    padding: 20px; 
+}
+
+.numb {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.numb h2 {
+    color: #24053E;
+    font-family: Fraunces SemiBold;
+    font-size: 28px;
+    padding: 20px 0px;
+}
+
+.text {
+    color: #24053E;
+    font-family: Manrope Regular;
+    font-size: 16px;
 }
 
 #image-founder {
@@ -162,7 +189,22 @@ main {
 
     main {
         top: 200px;
+        padding: 50px;
     }
+
+    .numbers {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .numb {
+        text-align: left;
+    }
+
+    .numb h2 {
+        font-size: 32px;
+    }
+
 }
 
 @media screen and (min-width:769px) {
@@ -184,8 +226,19 @@ main {
         top: 400px;
     }
 
-    .numbers {
+    #numbers {
         flex-direction: row;
+        padding: 0px 120px;
+    }
+
+    .number {
+        font-size: 24px;
+        width: 56px;
+        height: 56px;
+    }
+
+    .numb h2 {
+        font-size: 32px;
     }
 }
 
