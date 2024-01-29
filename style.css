@@ -192,7 +192,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 .section-content {
@@ -237,7 +237,7 @@ footer {
 }
 
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width:600px) and (max-width:768px) {
     .image-container {
         width: 514px;
         height: 296px;
@@ -250,7 +250,7 @@ footer {
     main {
         top: 200px;
         padding: 50px;
-        padding-bottom: 500px;
+        padding-bottom: 250px;
     }
 
     .numbers {
@@ -264,6 +264,31 @@ footer {
 
     .numb h2 {
         font-size: 32px;
+    }
+
+    section {
+        padding-bottom: 300px;
+    }
+
+    .section-content {
+        position: absolute;
+        width: 70%;
+        right: 0;
+        top: 150px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-content h2 {
+        font-size: 48px;
+    }
+
+    #image-founder {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 
 }
@@ -302,5 +327,6 @@ footer {
     .numb h2 {
         font-size: 32px;
     }
+
 }
 
